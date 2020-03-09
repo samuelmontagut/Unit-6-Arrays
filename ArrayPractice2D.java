@@ -84,7 +84,7 @@ public class ArrayPractice2D {
                 answer = false;
         }
         return answer;
-        //returns true if the sum of the numbers the given col is odd.
+      
     }
     public boolean oddColSum(int [][] nums, int col){
         boolean answer = true;
@@ -113,7 +113,6 @@ public class ArrayPractice2D {
         return mat[minI];
     }
 
-//1. Write a method that looks through each element of the chosen row and returns the smallest integer from that row.
 
     public int minRowAssignment(int[][] nums, int row){
         int min = nums[row][0];
@@ -125,8 +124,7 @@ public class ArrayPractice2D {
         return min;
     }
 
-//2. Write a method that searches through each column of an array and returns an array with the largest integer from
-//   each column.
+
 
     public int[] colMaxs(int[][] matrix){
         int[] colsMax = new int[matrix[0].length];
@@ -142,8 +140,7 @@ public class ArrayPractice2D {
         return colsMax;
     }
 
-//3. Write a method that calculates the row sum for every row and returns each of the values in an array.
-//   Index i of the return array contains the sum of elements in row i.
+
 
         public int[] allRowSums(int[][] data){
         int total = 0;
@@ -158,8 +155,6 @@ public class ArrayPractice2D {
             return rowSum;
         }
 
-//4. Write a method that calculates the average of each column in the array nums, and returns those values in an array
-//   of doubles.
 
        public double[] averageCol(int[][] nums){
         double[] colAvg = new double[nums[0].length];
@@ -177,8 +172,7 @@ public class ArrayPractice2D {
             return colAvg;
         }
 
-//5. Write a method that finds and returns the smallest even number in the array matrix. Assume that the array is filled
-//   with only positive ints.
+
 
         public int smallEven(int[][] matrix){
             int min = 99999999;
@@ -194,7 +188,7 @@ public class ArrayPractice2D {
             return min;
         }
 
-// 6. Write a method that returns the row index number that has the greatest sum of its elements.
+
 
         public static int biggestRow(int[][] nums){
             int total = 0;
